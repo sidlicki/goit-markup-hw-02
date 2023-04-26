@@ -1,0 +1,24 @@
+:root {
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
