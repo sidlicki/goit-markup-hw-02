@@ -26,7 +26,6 @@ body {
 }
 
 /* HEADER  */
-/* HEADER  */
 .logo {
   font-family: var(--secondary-font-family-family);
   font-weight: 800;
@@ -104,4 +103,47 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--link-header-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--header-color);
+}
+
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
+.our-team-item {
+  background-color: #ffffff;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--header-color);
+}
+.logo-in-footer {
+  font-family: var(--secondary-font-family-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio-footer-span {
+  color: #f4f4fd;
+}
+.footer-description {
+  font-family: 'Roboto';
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
