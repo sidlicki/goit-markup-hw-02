@@ -1,14 +1,7 @@
 :root {
   --main-font-family: 'Roboto', sans-serif;
   --secondary-font-family-family: 'Raleway', sans-serif;
-}
-
-body {
-  font-family: var(--main-font-family);
-}
-button {
-  font-family: inherit;
-  cursor: pointer;
+  --background-color: #ffffff;
 }
 
 .list {
@@ -19,6 +12,26 @@ button {
   text-decoration: none;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: 434455;
+  background-color: var(--background-color);
+}
+
 .logo {
-  text-decoration: none;
+  font-family: var(--secondary-font-family-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio-span {
+  color: #2e2f42;
 }
